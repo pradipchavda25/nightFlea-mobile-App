@@ -7,8 +7,8 @@ interface ProductCardProps {
   image: string;
   brand: string;
   title: string;
-  price: number; 
-  discount: number; 
+  price: number;
+  discount: number;
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({
@@ -24,7 +24,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   return (
     <div className={styles.productCard}>
       <div className={styles.productImageContainer}>
-      <Image width={100} height={100} src={image} alt={title} className={styles.productImage} />
+        <Image width={100} height={100} src={image} alt={title} className={styles.productImage} />
         <div className={styles.shareIcon}>
           <GoShare />
         </div>
