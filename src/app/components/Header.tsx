@@ -10,12 +10,12 @@ const Header: React.FC = () => {
       <div className={styles.headerIcons}>
         <div className={styles.icon}>
           <Link href="https://web.furrl.in/wishlist">
-              <HiOutlineBookmark />
+              <HiOutlineBookmark size={24} strokeWidth={1} />
           </Link>
         </div>
         <div className={styles.icon}>
           <Link href="https://web.furrl.in/cart">
-              <HiOutlineShoppingBag />
+              <HiOutlineShoppingBag size={24} strokeWidth={1} />
           </Link>
         </div>
       </div>
